@@ -1,0 +1,98 @@
+<html><head>
+<title>NitroGen</title>
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta property="og:type" content="website">
+<meta property="og:title" content="NitroGen">
+<meta property="og:description" content="Discord Nitro Oluşturucusu">
+<meta property="og:url" content="https://cdn.glitch.com/e5096238-591b-4e89-ad7d-3dfef400f095%2Ftenor.png?v=1604468468505">
+<meta property="og:image" content="https://cdn.glitch.com/e5096238-591b-4e89-ad7d-3dfef400f095%2Ftenor.png?v=1604468468505">
+<link rel="shortcut icon" type="image/png" href="https://cdn.glitch.com/e5096238-591b-4e89-ad7d-3dfef400f095%2Ftenor.png?v=1604468468505">  
+<style>
+@media (max-width: 500px) {
+textarea {
+  height: 100px;
+  line-height:1.25;
+}
+button {
+	background-color:#000000;
+	cursor:pointer;
+	color:#00ff00;
+	font-family:Arial;
+	font-size:50px;
+	padding:50px 60px;
+	text-decoration:none;
+}
+}
+
+.button0 {
+  font-size:20px;
+  padding:50px 60px;
+}
+</style>
+</head>
+<body>
+<style>
+  textarea {
+    background-color: #000;
+    border: 1px solid #000;
+    color: #00ff00;
+    padding: 8px;
+    font-family: courier new;
+}
+
+body {
+    background-color: #000;
+}
+
+input {
+    background-color: #000;
+    color: #00ff00;
+}
+
+button {
+	background-color:#000000;
+	cursor:pointer;
+	color:#00ff00;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 8px;
+	text-decoration:none;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+</style>
+<div>
+<h1 style="font-family: Roboto; color: #00ff00">DISCORD NITRO OLUŞTURUCU</h1>
+<textarea id="a" rows="11" cols="100" readonly="" style="resize: none;">İzlediğiniz İçin Teşekkür Ederiz!
+  
+―――――――――――――――――――――――――――――――――――――――
+[BILGI] Discord Nitro Oluşturucu
+[BILGI] Discord Nitro Kodları Burada!
+[BILGI] Kodlardan Bazıları Çalışmaktadır.
+―――――――――――――――――――――――――――――――――――――――
+
+</textarea>
+<p></p>
+<p></p>
+<p style="font-family: Arial; color: #00ff00">Oluşturulacak Nitro Kodu Sayısı</p>
+<input type="text" id="speed" value="5">
+<p></p>
+<button id="generate" class="button">
+  Başlat!
+</button>
+
+<button id="stop" class="button">
+  Durdur!
+</button>
+    
+<button onclick="stop(); document.getElementById('a').value = 'İzlediğiniz İçin Teşekkür Ederiz!\n\n―――――――――――――――――――――――――――――――――――――――\n[BILGI] Discord Nitro Oluşturucu\n[BILGI] Discord Nitro Kodları Burada!\n[BILGI] Kodlardan Bazıları Çalışmaktadır.\n―――――――――――――――――――――――――――――――――――――――\n\n'; document.getElementById('b').value = '';" class="button" id="clear">Kodları Temizle</button>
+<textarea style="display: none;" id="b" rows="11" cols="100" readonly=""></textarea>
+	<script src="main.js"></script>
+</div>
+	<p></p>
+
+
+</body></html>
